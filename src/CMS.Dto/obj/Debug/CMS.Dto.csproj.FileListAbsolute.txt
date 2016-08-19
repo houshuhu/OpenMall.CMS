@@ -1,0 +1,5 @@
+E:\housh\Git\CMS\OpenMall.CMS\CMS.Dto\bin\Debug\CMS.Dto.dll
+E:\housh\Git\CMS\OpenMall.CMS\CMS.Dto\bin\Debug\CMS.Dto.pdb
+E:\housh\Git\CMS\OpenMall.CMS\CMS.Dto\obj\Debug\CMS.Dto.csprojResolveAssemblyReference.cache
+E:\housh\Git\CMS\OpenMall.CMS\CMS.Dto\obj\Debug\CMS.Dto.dll
+E:\housh\Git\CMS\OpenMall.CMS\CMS.Dto\obj\Debug\CMS.Dto.pdb

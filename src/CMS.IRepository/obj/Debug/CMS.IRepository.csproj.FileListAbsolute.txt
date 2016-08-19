@@ -1,0 +1,10 @@
+E:\housh\Git\CMS\OpenMall.CMS\CMS.IRepository\bin\Debug\CMS.IRepository.dll
+E:\housh\Git\CMS\OpenMall.CMS\CMS.IRepository\bin\Debug\CMS.IRepository.pdb
+E:\housh\Git\CMS\OpenMall.CMS\CMS.IRepository\obj\Debug\CMS.IRepository.csprojResolveAssemblyReference.cache
+E:\housh\Git\CMS\OpenMall.CMS\CMS.IRepository\obj\Debug\CMS.IRepository.dll
+E:\housh\Git\CMS\OpenMall.CMS\CMS.IRepository\obj\Debug\CMS.IRepository.pdb
+E:\housh\Git\OpenMall.CMS\src\CMS.IRepository\bin\Debug\CMS.IRepository.dll
+E:\housh\Git\OpenMall.CMS\src\CMS.IRepository\bin\Debug\CMS.IRepository.pdb
+E:\housh\Git\OpenMall.CMS\src\CMS.IRepository\obj\Debug\CMS.IRepository.csprojResolveAssemblyReference.cache
+E:\housh\Git\OpenMall.CMS\src\CMS.IRepository\obj\Debug\CMS.IRepository.dll
+E:\housh\Git\OpenMall.CMS\src\CMS.IRepository\obj\Debug\CMS.IRepository.pdb

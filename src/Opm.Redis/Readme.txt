@@ -1,0 +1,76 @@
+﻿
+
+Reids中文API：http://www.cnblogs.com/kissdodog/p/3572084.html
+
+AddItemToList	添加一个项到内部的List<T>
+AddItemToSet	添加一个项到内部的HashSet<T>
+AddItemToSortedSet	添加一个项到内部的排序List<T>，其中重载方法多了个score：排序值。优先按照score从小->大排序，否则按值小到大排序
+AddRangeToList	一次过将参数中的List<T>中的多个值添加入内部的List<T>
+AddRangeToSet	一次过将参数中的HashSet<T>中的多个值添加入内部的HashSet<T>
+AddRangeToSortedSet	一次过将参数中的List<T>中的多个值添加到内部List<T>，重载方法的score表示排序值。
+GetAllItemsFromList	获取指定ListId的内部List<T>的所有值
+GetAllItemsFromSet	获取指定SetId的内部HashSet<T>的所有值
+GetAllItemsFromSortedSet	获取指定ListId的内部已排序List<T>的所有值
+GetAllItemsFromSortedSetDesc	获取指定ListId的内部已排序List<T>的所有值，不过获取的值是倒序排列后的。
+GetRangeFromList	获取指定ListId的内部List<T>中指定下标范围的数据
+GetRangeFromSortedList	获取指定ListId的内部已排序List<T>中指定下标范围的数据
+GetRangeFromSortedSet	获取指定SetId的内部HashSet<T>中指定下标范围的数据
+GetRangeFromSortedSetByHighestScore	获取指定SetId的内部HashSet<T>中按照score由高->低排序后的分值范围的数据，并且支持skip、take
+GetRangeFromSortedSetByLowestScore	同上，只不过是按score分值由低->高取一定范围内的数据
+GetRangeFromSortedSetDesc	按倒序获取内部HashSet<T>的指定下标范围内的数据
+GetRangeWithScoresFromSortedSet	与From相同，只不过获取的是键值对，数据中带分值score
+GetRangeWithScoresFromSortedSetByHighestScore	同上
+GetRangeWithScoresFromSortedSetByLowestScore	同上
+GetRangeWithScoresFromSortedSetDesc	同上
+GetAllWithScoresFromSortedSet	获取指定ListId的已排序的内部List<T>与其score
+GetSortedItemsFromList	从指定ListId的List<T>中获取按指定排序的集合，支持Skip,Take
+GetSortedEntryValues	从指定ListId的List<T>中获取经过排序指定开始位置与个数的项
+RemoveAllFromList	移除指定ListId的内部List<T>
+RemoveItemFromList	移除指定ListId的内部List<T>中第二个参数值相等的那一项
+RemoveItemFromSet	从指定SetId的内部HashSet<T>中移除与第二个参数值相等的那一项
+RemoveItemFromSortedSet	从指定ListId中已排序的内部List<T>中移除值相等的那一项
+RemoveRangeFromSortedSet	从指定ListId已排序的List<T>中移除指定下标范围的项
+RemoveRangeFromSortedSetByScore	从指定ListId已排序的List<T>中移除指定score范围的项
+RemoveStartFromList	从指定ListId移除开头那一项
+RemoveEndFromList	从指定ListId移除末尾那项
+BlockingRemoveStartFromList	阻塞地从指定ListId移除开头那一项
+BlockingRemoveStartFromLists	 
+RemoveEntry	根据传入的多个ListId，清除多个内部List<T>
+RemoveAllLuaScripts	清除所有的 Lua 脚本缓存
+RemoveEntryFromHash	 
+GetItemFromList	根据ListId和下标获取一项
+GetItemIndexInSortedSet	根据List和值，获取内置的排序后的List<T>的下标
+GetItemIndexInSortedSetDesc	同上，不过顺序相反
+GetItemScoreInSortedSet	根据传入的ListId和值获取内置List<T>项的score
+GetListCount	根据ListId，获取内置的List<T>的项数
+GetSetCount	根据SetId，获取内置的HashSet<T>的项数
+GetIntersectFromSets	从输入的多个HashSet<T>的Id中获取交集
+GetUnionFromSets	从输入的多个HashSet<T>的Id中获取并集
+GetRandomItemFromSet	从指定ListId的集合中获取随机项
+StoreUnionFromSets	将多个HashSet<T>，合并为第一个参数中的一个大HashSet<T>，第一个参数中的HashSet<T>原本可以不存在
+StoreUnionFromSortedSets	将多个SortedSet<T>，合并为第一个参数中的一个大SortedSet<T>，第一个参数中的SortedSet<T>原本可以不存在
+StoreIntersectFromSets	将交集结果保存在第一个参数的集合中，对HastSet<T>作用
+StoreIntersectFromSortedSets	将交集结果保存在第一个参数的集合中，对SortedSet<T>作用
+EnqueueItemOnList	将一个元素存入指定ListId的List<T>的头部
+DequeueItemFromList	将指定ListId的List<T>末尾的那个元素出列，返回出列元素
+BlockingDequeueItemFromList	将指定ListId的List<T>末尾的那个元素出列，区别是：会阻塞该List<T>，支持超时时间，返回出列元素
+BlockingDequeueItemFromLists	 
+BlockingPopItemFromList	阻塞地将指定ListId的List<T>末尾的哪一个元素移除
+BlockingPopItemFromLists	 
+BlockingPopAndPushItemBetweenLists	将第一个集合的元素移除并添加到第二个集合的头部，返回该元素，会同时阻塞两个集合
+PopItemFromList	从指定ListId的List<T>末尾移除一项并返回
+PopItemFromSet	从指定SetId的HashSet<T>末尾移除一项并返回
+PopItemWithHighestScoreFromSortedSet	从指定SetId的HashSet<T>移除score最高的那一项
+PopItemWithLowestScoreFromSortedSet	从指定SetId的HashSet<T>移除score最低的那一项
+PopAndPushItemBetweenLists	将第一个集合的元素移除并添加到第二个集合的头部
+SetContainsItem	判断指定SetId的HashSet<T>中是否包含指定的value(仅仅支持字符串)
+SortedSetContainsItem	判断SortedSet是否包含一个键
+TrimList	根据ListId裁剪内置集合，保留下去from->at之间(包含from于at)的元素，其余的裁去
+IncrementItemInSortedSet	为指定ListId的集合中的value的分值score加上指定分值
+SetItemInList	重新设置指定ListId和下标的value为指定值
+PushItemToList	在指定ListId的内置List<T>中入列一个键值对，在末尾
+PrependItemToList	将一个值插入到List<T>的最前面
+PrependRangeToList	一次性添加多个值到指定ListId的内置List<T>中
+GetDifferencesFromSet	返回存在于第一个集合，但是不存在于其他集合的数据。差集
+StoreDifferencesFromSet	将求差集的结果保存在第一个参数的集合中
+MoveBetweenSets	将元素从一个集合移动到另一个集合的开头。(删除与添加)

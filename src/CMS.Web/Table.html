@@ -1,0 +1,67 @@
+﻿<div class="bjui-pageHeader">
+    <div class="bjui-searchBar">
+        <label>所属业务:</label>
+        <select name="type" data-toggle="selectpicker">
+            <option value="">全部</option>
+            <option value="1">联络</option>
+            <option value="2">住宿</option>
+            <option value="3">餐饮</option>
+            <option value="4">交通</option>
+        </select>&nbsp;
+        <label>护照号：</label><input type="text" id="customNo" value="" name="code" class="form-control" size="10">&nbsp;
+        <label>客户姓名：</label><input type="text" value="" name="name" class="form-control" size="8">&nbsp;
+        <label>客户姓名：</label><input type="text" value="" name="name" class="form-control" size="8">&nbsp;
+        <label>护照号：</label><input type="text" id="customNo" value="" name="code" class="form-control" size="10">&nbsp;
+        <button type="button" class="showMoreSearch" data-toggle="moresearch" data-name="custom"><i class="fa fa-angle-double-down"></i></button>
+        <div class="btn-group">
+            <button type="submit" class="btn btn-default" data-icon="search">查询</button>&nbsp;
+            <button type="submit" class="btn btn-orange" data-icon="undo">重置</button>&nbsp;
+        </div>
+        <div class="bjui-moreSearch">
+            <label>职业：</label><input type="text" value="" name="profession" size="15" />
+            <label>&nbsp;性别:</label>
+            <select name="sex" data-toggle="selectpicker">
+                <option value="">全部</option>
+                <option value="true">男</option>
+                <option value="false">女</option>
+            </select>
+            <label>&nbsp;手机:</label>
+            <input type="text" value="" name="mobile" size="10">
+        </div>
+        <div class="bjui-my-right">
+            <div class="btn-group" role="group" aria-label="...">
+                <button type="button" class="btn btn-success"><i class="fa fa-plus"></i>&nbsp;添加</button>
+                <button type="button" class="btn btn-green"><i class="fa fa-pencil"></i>&nbsp;编辑</button>
+                <button type="button" class="btn btn-red"><i class="fa fa-remove"></i>&nbsp;删除</button>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn-default dropdown-toggle" data-toggle="dropdown" data-icon="copy">操作<span class="caret"></span></button>
+                <ul class="dropdown-menu right" role="menu">
+                    <li><a href="#" data-toggle="doexport" data-confirm-msg="确定要导出信息吗？">导出<span style="color: green;">全部</span></a></li>
+                    <li><a href="#" data-toggle="doexportchecked" data-confirm-msg="确定要导出选中项吗？" data-idname="expids" data-group="ids">导出<span style="color: red;">选中</span></a></li>
+                    <li class="divider"></li>
+                    <li><a href="#" data-toggle="doajaxchecked" data-confirm-msg="确定要删除选中项吗？" data-idname="delids" data-group="ids">删除选中</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bjui-pageContent tableContent">
+    
+</div>
+<div class="bjui-pageFooter">
+    <div class="pages">
+        <span>每页&nbsp;</span>
+        <div class="selectPagesize">
+            <select data-toggle="selectpicker" data-toggle-change="changepagesize">
+                <option value="30">30</option>
+                <option value="60">60</option>
+                <option value="120">120</option>
+                <option value="150">150</option>
+            </select>
+        </div>
+        <span>&nbsp;条，共 600 条</span>
+    </div>
+    <div class="pagination-box" data-toggle="pagination" data-total="600" data-page-size="30" data-page-current="1">
+    </div>
+</div>

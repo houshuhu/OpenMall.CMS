@@ -1,0 +1,21 @@
+﻿.bjui-searchBar {
+    padding: 3px 0;
+}
+
+.bjui-my-right {
+    float: right;
+}
+
+#nprogress {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.mybar {
+    background: #29d;
+    height: 3px;
+}

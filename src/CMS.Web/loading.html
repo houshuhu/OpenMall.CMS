@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="Content/BJUI/plugins/nprogress/nprogress.css" rel="stylesheet" />
+    <style>
+        html, body, iframe {
+            margin: 0;
+            padding: 0;
+        }
+
+        #nprogress {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            /*background-color: #f7f7f7;*/
+            z-index: 999;
+        }
+
+        .spinner-icon {
+            display: none !important;
+        }
+
+        .splash {
+            position: absolute;
+            top: 40%;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+            .splash img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                height: 100px;
+                width: 100px;
+            }
+
+        .card {
+            background-color: #f7f7f7;
+            padding: 20px 25px 15px;
+            margin: 0 auto 25px;
+            width: 380px;
+        }
+
+        .mybar {
+            background: #29d;
+            height: 3px;
+        }
+
+        .progress {
+            height: 10px;
+            overflow: hidden;
+        }
+    </style>
+    <!--<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>-->
+    <script src="Content/BJUI/js/jquery-1.7.2.min.js"></script>
+    <script src="Content/BJUI/plugins/nprogress/nprogress.js"></script>
+    <title></title>
+    <script>
+        $(function () {
+            NProgress.configure({
+                template: $('#splash-template').html()
+            });
+            NProgress.start();
+        });
+        $(window).load(function () {
+            NProgress.done();
+        });
+    </script>
+
+
+</head>
+<body>
+<script type="text" id="splash-template">
+        <div class="mybar" role="bar">
+    </script>
+    <iframe id="iframe" style="width: 100%; height: 660px;" src="http://www.jd.com//" frameborder="0"></iframe>
+</body>
+</html>

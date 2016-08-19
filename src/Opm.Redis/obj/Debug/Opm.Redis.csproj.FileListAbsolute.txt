@@ -1,0 +1,8 @@
+E:\housh\Git\CMS\OpenMall.CMS\Opm.Redis\bin\Debug\Opm.Redis.dll
+E:\housh\Git\CMS\OpenMall.CMS\Opm.Redis\bin\Debug\Opm.Redis.pdb
+E:\housh\Git\CMS\OpenMall.CMS\Opm.Redis\bin\Debug\ServiceStack.dll
+E:\housh\Git\CMS\OpenMall.CMS\Opm.Redis\bin\Debug\ServiceStack.Interfaces.dll
+E:\housh\Git\CMS\OpenMall.CMS\Opm.Redis\bin\Debug\ServiceStack.ServiceInterface.dll
+E:\housh\Git\CMS\OpenMall.CMS\Opm.Redis\obj\Debug\Opm.Redis.csprojResolveAssemblyReference.cache
+E:\housh\Git\CMS\OpenMall.CMS\Opm.Redis\obj\Debug\Opm.Redis.dll
+E:\housh\Git\CMS\OpenMall.CMS\Opm.Redis\obj\Debug\Opm.Redis.pdb

@@ -1,0 +1,5 @@
+E:\housh\Git\CMS\OpenMall.CMS\Task.UnitTest\bin\Debug\Tasks.UnitTest.dll
+E:\housh\Git\CMS\OpenMall.CMS\Task.UnitTest\bin\Debug\Tasks.UnitTest.pdb
+E:\housh\Git\CMS\OpenMall.CMS\Task.UnitTest\obj\Debug\Tasks.UnitTest.csprojResolveAssemblyReference.cache
+E:\housh\Git\CMS\OpenMall.CMS\Task.UnitTest\obj\Debug\Tasks.UnitTest.dll
+E:\housh\Git\CMS\OpenMall.CMS\Task.UnitTest\obj\Debug\Tasks.UnitTest.pdb
